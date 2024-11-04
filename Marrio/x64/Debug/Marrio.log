@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\main.cpp(1,10): error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
