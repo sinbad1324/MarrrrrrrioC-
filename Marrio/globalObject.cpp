@@ -1,1 +1,1 @@
-#include "globalObject.h"
+//#include "globalObject.h"

@@ -1,18 +1,16 @@
-#pragma once
 #ifndef _WORKSPACE_
 #define _WORKSPACE_
 #include <vector>
 #include "object.h"
 #include "MyClass.hpp"
-
 #include <memory>
 
-Game game;
+class Game;
 
-class Workspace :MyClass::GlobalObject 
+class Workspace : public MyClass::GlobalObject 
 {
 private:
-	std::vector<std::unique_ptr<MyClass::GlobalObject>> Objects ;
+	std::vector<MyClass::GlobalObject*> Objects ;
 public:
 	//Variables
 	Game* game;

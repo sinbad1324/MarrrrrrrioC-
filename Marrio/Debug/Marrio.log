@@ -1,4 +1,22 @@
-﻿  Gui.cpp
-C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Gui.cpp(36,20): warning C4018: '<' : incompatibilité signed/unsigned
-C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Gui.cpp(45,20): warning C4018: '<' : incompatibilité signed/unsigned
+﻿  Game.cpp
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,105): warning C4305: 'argument' : troncation de 'double' à 'T'
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,105): warning C4305:         with
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,105): warning C4305:         [
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,105): warning C4305:             T=float
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,105): warning C4305:         ]
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,101): warning C4305: 'argument' : troncation de 'double' à 'T'
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,101): warning C4305:         with
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,101): warning C4305:         [
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,101): warning C4305:             T=float
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(31,101): warning C4305:         ]
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,99): warning C4305: 'argument' : troncation de 'double' à 'T'
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,99): warning C4305:         with
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,99): warning C4305:         [
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,99): warning C4305:             T=float
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,99): warning C4305:         ]
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,95): warning C4305: 'argument' : troncation de 'double' à 'T'
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,95): warning C4305:         with
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,95): warning C4305:         [
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,95): warning C4305:             T=float
+C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Marrio\Game.cpp(43,95): warning C4305:         ]
   Marrio.vcxproj -> C:\Users\41794\OneDrive\Bureau\C++\Projets C++\SFML\Marrio\Debug\Marrio.exe

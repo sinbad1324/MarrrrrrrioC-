@@ -67,8 +67,6 @@ void Game::initWorkspace()
 {
 	workspace = new Workspace(this);
 	object obj=	workspace->addObject("Yoyo", workspace);
-
-
 }
 
 
@@ -87,7 +85,7 @@ bool const Game::isOpen() const
 	 return window->getSize();
  }
 
- bool Game::getPollEvent(sf::Event ev)
+ bool Game::getPollEvent(sf::Event& ev)
  {
 	 return this->window->pollEvent(ev);
  }
@@ -98,7 +96,7 @@ void Game::update()
 
 	this->updateEvent();
 	this->ScreenGui->update();
-	workspace->update();
+	this->workspace->update();
 
 }
 
@@ -120,7 +118,7 @@ void Game::render()
 	// DRAW CODE
 	this->ScreenGui->render(window);
 	//Workspace
-	workspace->render(window);
+	this->workspace->render(window);
 	// DRAW CODE
 	this->window->display();
 
@@ -133,6 +131,7 @@ Game::Game()
 	this->workspace = nullptr;
 	this->initWindow();
 	this->initScreenGui();
+	this->initWorkspace();
 }
 
 Game::~Game()

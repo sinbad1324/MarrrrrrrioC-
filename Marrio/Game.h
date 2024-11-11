@@ -17,6 +17,7 @@ private:
 	sf::RenderWindow * window;
 	Gui* ScreenGui;
 	Workspace* workspace;
+	
 	//initalize
 	void initWindow();
 	void initScreenGui();
@@ -33,7 +34,7 @@ public:
 	bool const isOpen() const ;
 	 sf::Vector2i getPosition();
 	 sf::Vector2u getSize();
-	 bool getPollEvent(sf::Event ev);
+	 bool getPollEvent(sf::Event& ev);
 	 GameEvents gameEvent;
 	//render
 	void render();
